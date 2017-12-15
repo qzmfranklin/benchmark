@@ -66,6 +66,7 @@ cc_library(
     copts = benchmark_copts,
     linkopts = [
         '-lm',
+        '-pthread',
     ],
 )
 
