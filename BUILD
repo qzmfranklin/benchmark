@@ -20,7 +20,7 @@ benchmark_copts = [
     '-std=c++11',
 ]
 
-gtest_dep = '//third_party/gtest:gtest'
+gtest_dep = '//third_party/cc/gtest:gtest'
 
 cc_library(
     name = 'benchmark',
